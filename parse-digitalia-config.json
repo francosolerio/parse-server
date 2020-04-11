@@ -1,0 +1,28 @@
+{
+	"allowClientClassCreation": true,
+	"appId": "DIGITALIA_APP_ID",
+	"clientKey": "fask34ozz85",
+	"databaseURI": "mongodb://admin:admin@mongo/parse_server?authSource=admin",
+	"masterKey": "BUNGABUNGA",
+	"port": 1337,
+	"push": {
+		"android": {
+			"apiKey": "AAAAqfCX-co:APA91bH1gLwrgBX4GvHjNNBhCdslzB353gkA7nIlAF4ZEy9AhLPGLHy_vh_Zhw3Wg3kDT5TeKhVAqaoN8E1E2-KUudmRODakpLb5meZc8ZhwIeSHFWwibH6VfoeaixlY2q2gm9EcVM4H"
+		},
+		"ios": [
+			{
+				"bundleId": "com.gunpmedia.Digitalia",
+				"passphrase": "sprunzi99",
+				"pfx": "push/digitalia.p12",
+				"production": true
+			},
+			{
+				"bundleId": "com.gunpmedia.Digitalia",
+				"passphrase": "sprunzi888",
+				"pfx": "push/digitalia_sandbox.p12",
+				"production": false
+			}
+		]
+	},
+	"verbose": true
+}
